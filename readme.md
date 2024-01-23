@@ -1,13 +1,13 @@
-# c++ code running in webassembly vs js code
+## c++ code running in webassembly vs js code
 
-## How was this possible ?
+# How was this possible ?
 
-# with Emscripten SDK
+# With Emscripten SDK
 
 Emscripten takes c++ code and generates c++ code in an optimized web assembly version and js file to glue that
 wasm code to frontend
 
-# How to generate your c++ wasm code with emscripten ?
+## How to generate your c++ wasm code with emscripten ?
 
 ```
     cd wasm
